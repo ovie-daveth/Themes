@@ -1,0 +1,101 @@
+*{
+    margin: 0; padding: 0;
+    text-decoration: none;
+}
+:root{
+    --background: lightgrey;
+    --text: #000;
+}
+.dark-theme{
+    --background: #000;
+    --text: #fff;
+
+}
+body{
+    background-color: var(--background)
+}
+
+#logo{
+    width: 50px;
+    border-radius: 50%;
+}
+.header{
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 15%;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+    transition: .4s;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid brown;
+    transform: scale(1.2);
+}
+
+
+
+nav ul li a{
+    color: var(--text);
+    transition: .4s;
+}
+nav ul li a:hover{
+    color:brown;
+    
+}
+#moon{
+    width: 40px;
+}
+/* 
+main */
+
+#man{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 15%;
+    gap: 2%;
+}
+.col{
+    width: 30%;
+}
+.col-img-container{
+    width: 70%;
+   
+}
+.col-img-container:hover #man{
+    margin-bottom: 40px;
+    transform: scale(1.2);
+}
+h1{
+    font-size: 2em;
+    font-family: sans-serif;
+    color: var(--text);
+}
+span{
+    color: red;
+}
+h4{
+    font: 0.8em sans-serif;
+    color: var(--text);
+    margin: 10px 0;
+ }
+ button{
+    font-size: 1em;
+    color: var(--background);
+    background-color: var(--text);
+    font-family: arial;
+    padding: 5px 50px;
+    border: none;
+ }
