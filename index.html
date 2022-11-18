@@ -12,14 +12,14 @@
     <div class="header">
         <nav>
             <img id="logo" src="img/man.jpg.png" alt="logo">
-            <ul id="navbar" >
+            <ul >
                 <li><a href="">Home</a></li>
                 <li><a href="">About Me</a></li>
                 <li><a href="">Contact Me</a></li>
                 <li><a href="">My Works</a></li>            
             </ul>
             <img id="moon" src="img/moon.png">
-            <i id="menu" class = "bi bi-lines"></i>
+            <i class = "bi bi-lines"></i>
 
         </nav>
     </div>
@@ -37,8 +37,8 @@
 
 <script>
     var icon = document.getElementById("moon");
-    var menu = document.getElementById("menu");
-    var nav = document.getElementById("navbar")
+    var menu = document.getElementByTagName("i");
+    var nav = document.getElementByTagName("ul")
     icon.addEventListener("click", () => {
         document.body.classList.toggle('dark-theme')
         if (document.body.classList.contains('dark-theme')){
@@ -49,6 +49,7 @@
     })
     menu.addEventListener("click", () => {
         nav.document.classList.toggle('active')
+    })
         
 </script>
 
