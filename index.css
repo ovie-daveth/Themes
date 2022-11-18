@@ -111,4 +111,7 @@ h4{
   .col-img-container{
        width: 100%;
   }
+  nav{
+    display:none;
+  }
  }
