@@ -28,9 +28,6 @@ nav{
     align-items: center;
     padding: 2% 15%;
 }
-#menu{
-   display: none;
-   }
 nav ul li{
     display: inline-block;
     margin-left: 15px;
@@ -115,13 +112,7 @@ h4{
   .col-img-container{
        width: 100%;
   }
-  #menu{
-    display: block;
-   }
   ul{
     display:none;
   }
-  #navbar.active{
-    display: block;
-   }
  }
